@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         //UIImage(named: "fortnite")!]
     
     //Image literal auswählen
-    let images : [UIImage] = [#imageLiteral(resourceName: "rocketLeague"), #imageLiteral(resourceName: "modernWarfare"),#imageLiteral(resourceName: "fortnite"), #imageLiteral(resourceName: "apex"), #imageLiteral(resourceName: "valorant"), #imageLiteral(resourceName: "overwatch"), #imageLiteral(resourceName: "leagueOfLegends"), #imageLiteral(resourceName: "gta5"), #imageLiteral(resourceName: "csGO"), #imageLiteral(resourceName: "minecraft")]
+    let images: [UIImage] = [#imageLiteral(resourceName: "rocketLeague"), #imageLiteral(resourceName: "modernWarfare"),#imageLiteral(resourceName: "fortnite"), #imageLiteral(resourceName: "apex"), #imageLiteral(resourceName: "valorant"), #imageLiteral(resourceName: "overwatch"), #imageLiteral(resourceName: "leagueOfLegends"), #imageLiteral(resourceName: "gta5"), #imageLiteral(resourceName: "csGO"), #imageLiteral(resourceName: "minecraft")]
     
     @IBAction func shuffleButtonAction(_ sender: UIButton) {
         imageView.image = images[1]
